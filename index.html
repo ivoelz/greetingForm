@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Military Rank Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="code.js"></script>
+    <script src="jquery-3.5.1.js"></script>
+</head>
+<body>
+    <div class="container">
+    <h1>Welcome!</h1>
+
+    <form>
+        <label for="first-name">First Name: </label>
+        <input type="text" name="name" id="first-name">
+        <br> <br>
+
+        <label for="last-name">Last Name: </label>
+        <input type="text" name="name" id="last-name">
+        <br>
+
+        <p>What's your military rank?</p>
+        <input type="radio" name="rank" id="sergeant-rank" data-color="red">
+        <label for="sergeant-rank">Sergeant</label>
+        <br>
+
+        <input type="radio" name="rank" id="captain-rank" data-color="blue">
+        <label for="captain-rank">Captain</label>
+        <br>
+
+        <input type="radio" name="rank" id="general-rank" data-color="yellow">
+        <label for="general-rank">General</label>
+        <br>
+    <br>
+
+    <button>Submit</button>
+    </form>
+
+    <p class="output">Hello, <span id="greeting">.</span></p>
+    </div>
+</body>
+</html>
